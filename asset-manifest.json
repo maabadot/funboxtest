@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/funboxtest/static/css/main.447eeaa0.chunk.css",
+    "main.js": "/funboxtest/static/js/main.e2472719.chunk.js",
+    "main.js.map": "/funboxtest/static/js/main.e2472719.chunk.js.map",
+    "runtime-main.js": "/funboxtest/static/js/runtime-main.baf4821a.js",
+    "runtime-main.js.map": "/funboxtest/static/js/runtime-main.baf4821a.js.map",
+    "static/js/2.5c16eb50.chunk.js": "/funboxtest/static/js/2.5c16eb50.chunk.js",
+    "static/js/2.5c16eb50.chunk.js.map": "/funboxtest/static/js/2.5c16eb50.chunk.js.map",
+    "index.html": "/funboxtest/index.html",
+    "precache-manifest.0417fb9397a47b9ffbd65cc89995af84.js": "/funboxtest/precache-manifest.0417fb9397a47b9ffbd65cc89995af84.js",
+    "service-worker.js": "/funboxtest/service-worker.js",
+    "static/css/main.447eeaa0.chunk.css.map": "/funboxtest/static/css/main.447eeaa0.chunk.css.map",
+    "static/js/2.5c16eb50.chunk.js.LICENSE.txt": "/funboxtest/static/js/2.5c16eb50.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/funboxtest/static/media/Exo2.0-Thin.44bde874.otf",
+    "static/media/Card.css": "/funboxtest/static/media/selectedHover.8e65f990.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baf4821a.js",
+    "static/js/2.5c16eb50.chunk.js",
+    "static/css/main.447eeaa0.chunk.css",
+    "static/js/main.e2472719.chunk.js"
+  ]
+}
