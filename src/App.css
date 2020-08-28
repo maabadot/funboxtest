@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header-txt {
+    color: white;
+    font-family: 'Exo2.0';
+    font-size: 36px;
+    margin-bottom: 25px;
+}
