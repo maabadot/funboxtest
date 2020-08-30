@@ -3,6 +3,8 @@ import Card from './Card'
 import './CardGrid.css'
 
 export default function CardGrid({data}) {
+
+    // Через функцию map массив с данными обрабывается, возвращая элементы 'Card'.
     return (
         <div className='CardGrid'>
             {

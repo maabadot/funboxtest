@@ -4,6 +4,7 @@ import CardGrid from './components/CardGrid'
 
 function App() {
 
+  // Массив с данными. Можно изменить или тянуть через API при необходимости.
   const data = [{
     food: 'с фуа-гра',
     count: 10,
@@ -29,6 +30,7 @@ function App() {
     disabled: true
   }];
 
+  // Данные передются через пропсы.
   return (
     <div className="App">
       <div className='header-txt'>Ты сегодня покормил кота?</div>

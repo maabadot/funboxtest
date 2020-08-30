@@ -6,6 +6,7 @@ export default function Card({ food, count, bonus, weight, description, disabled
 
     const [selected, setSelected] = useState(false)
 
+    // Функция, меняющая стейт, если карточка не отключена
     const inverseSelected = () => {
         if (!disabled) {
             setSelected(!selected);
@@ -13,6 +14,7 @@ export default function Card({ food, count, bonus, weight, description, disabled
     }
 
     return (
+        // Набор классов меняется в зависимости от состояния и свойства disabled
         <div className={'card default ' + (selected ? 'selected ' : '') + (disabled ? 'disabled ' : '')} onClick={inverseSelected}>
             <div className='info-container'>
                 <div>
@@ -40,6 +42,7 @@ export default function Card({ food, count, bonus, weight, description, disabled
                 </div>
             </div>
             <div className={'card-footer'}>
+                {/* Рендеринг по условию */}
                 {disabled && <span>Печалька, {food} закончися.</span>}
                 {selected && <span>{description}</span>}
                 {!disabled && !selected && <span>Чего сидишь? Порадуй котэ, <span className='buy-btn' onClick={inverseSelected}>купи.</span></span>}
